@@ -1,0 +1,131 @@
+name: Test Report
+description: Report compatibility or issues with Grus Ultrasound Proximity Fix
+title: "[TEST] "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing Grus Ultrasound Proximity Fix.
+
+        Please complete the information below so compatibility can be tracked accurately.
+
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      description: Device model and codename.
+      placeholder: Xiaomi Mi 9 SE (grus)
+    validations:
+      required: true
+
+  - type: input
+    id: rom
+    attributes:
+      label: ROM and build
+      placeholder: AlphaDroid 4.6 / 16-20260713-gapps-grus-v4.6
+    validations:
+      required: true
+
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+      placeholder: Android 16
+    validations:
+      required: true
+
+  - type: input
+    id: kernelsu
+    attributes:
+      label: KernelSU version
+      placeholder: KernelSU Next
+    validations:
+      required: true
+
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware / vendor base
+      placeholder: V12.5.1.0.RFBMIXM
+
+  - type: dropdown
+    id: normal_calls
+    attributes:
+      label: Normal phone call proximity
+      options:
+        - Working
+        - Not working
+        - Not tested
+    validations:
+      required: true
+
+  - type: dropdown
+    id: whatsapp_calls
+    attributes:
+      label: WhatsApp call proximity
+      options:
+        - Working
+        - Not working
+        - Not tested
+    validations:
+      required: true
+
+  - type: dropdown
+    id: voice_notes
+    attributes:
+      label: WhatsApp voice notes
+      options:
+        - Working
+        - Not working
+        - Not tested
+    validations:
+      required: true
+
+  - type: dropdown
+    id: consecutive_voice_notes
+    attributes:
+      label: Consecutive WhatsApp voice notes
+      options:
+        - Working
+        - Not working
+        - Not tested
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bluetooth
+    attributes:
+      label: Bluetooth A2DP multimedia
+      options:
+        - Working
+        - Not working
+        - Not tested
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Results / problem description
+      description: Describe what worked, what failed, or any unexpected behavior.
+      placeholder: Everything works correctly / describe the problem here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste relevant logs here if something failed.
+      render: shell
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I tested this on a Xiaomi Mi 9 SE (grus).
+          required: true
+        - label: I installed the official module ZIP from the GitHub Releases page.
+          required: true
