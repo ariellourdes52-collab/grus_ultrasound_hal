@@ -1,5 +1,12 @@
 First stable release of the native ultrasound proximity repair for **Xiaomi Mi 9 SE (`grus`)** running the tested AlphaDroid build.
 
+
+
+<img width="1080" height="2340" alt="Screenshot_20260913-010156_KernelSU-Next" src="https://github.com/user-attachments/assets/a6ab1802-8cc4-482e-88b4-97ecd6a4d310" />
+
+
+
+
 ### Tested on
 
 ```text
