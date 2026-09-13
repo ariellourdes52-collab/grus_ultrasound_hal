@@ -7,6 +7,18 @@ Native Xiaomi ultrasonic proximity restoration for the **Xiaomi Mi 9 SE (`grus`)
 
 **Current stable release: v1.5 Final**
 
+## ⬇️ Download
+
+[Download Grus Ultrasound Proximity Fix v1.5 Final](https://github.com/ariellourdes52-collab/grus_ultrasound_hal/releases/latest)
+
+## 🔐 File verification
+
+Official v1.5 Final SHA-256:
+
+`5c671f760d4bb0ee126a1b632d2914b5896b7a0c2a88ab3dae3c92c7dfc49d45`
+
+Use this checksum to verify that the downloaded ZIP matches the official v1.5 Final release.
+
 ## 📱 Tested device
 
 * **Device:** Xiaomi Mi 9 SE
