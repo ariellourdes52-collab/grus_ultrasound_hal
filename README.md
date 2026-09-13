@@ -21,6 +21,14 @@ Use this checksum to verify that the downloaded ZIP matches the official v1.5 Fi
 
 ## 📱 Tested device
 
+## 🧪 Compatibility
+
+| ROM / Build | Android | Root | Firmware Base | Calls | WhatsApp Calls | Voice Notes | Bluetooth A2DP | Status |
+|---|---:|---|---|---|---|---|---|---|
+| AlphaDroid 4.6 / 16-20260713-gapps-grus-v4.6 | 16 | KernelSU Next | V12.5.1.0.RFBMIXM | ✅ | ✅ | ✅ | ✅ | Confirmed |
+
+More configurations will be added as users report results through GitHub Issues.
+
 * **Device:** Xiaomi Mi 9 SE
 * **Codename:** `grus`
 * **ROM:** AlphaDroid
