@@ -1,5 +1,3 @@
-# Grus Ultrasound Proximity Fix v1.5 Final
-
 First stable release of the native ultrasound proximity repair for **Xiaomi Mi 9 SE (`grus`)** running the tested AlphaDroid build.
 
 ### Tested on
